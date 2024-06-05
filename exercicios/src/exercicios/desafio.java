@@ -8,8 +8,10 @@ public class desafio {
     int A = 10;
     int B = 20;
     
-        A +=10;
-        B -=10;
+        int aux = A;
+        A = B;
+        B = aux;
+   
     
         System.out.println("VALOR DE A: " +A);
         System.out.println("VALOR DE B: " + B);
