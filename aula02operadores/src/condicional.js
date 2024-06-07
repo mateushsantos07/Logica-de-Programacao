@@ -25,7 +25,7 @@ var codigoErro = leia.questionInt("DIGITE O CODIGO DO ERRO: ")
 switch (codigoErro) {
     case 400:
     case 401:
-    case 404:    
+    case 404:
         console.log("HTTP CODE ERROR APLICATION")
         break;
     case 500:
