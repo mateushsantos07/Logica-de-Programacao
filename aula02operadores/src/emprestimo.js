@@ -6,7 +6,7 @@ var VE = leia.questionFloat("QUAL O VALOR DO EMRESTIMO? ")
 var NP = leia.questionInt("EM QUANTAS PARCELAS VOCE VAI FAZER? ")
 var VFE = VE / NP;
 
-if(VFE > limiteparc){
+if (VFE > limiteparc) {
     console.log("ESSE VALOR NAO PODE SER CONCEDIDO")
 } else {
     console.log("O VALOR DAS SUAS PARECELAS FICARAO R$" + VFE + " POR MES")

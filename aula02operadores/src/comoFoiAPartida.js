@@ -3,18 +3,18 @@ import leia from 'readline-sync'
 var gum = leia.questionInt("FALE QUANTOS GOLS O PIRMEIRO TIME FEZ: ")
 var gdois = leia.questionInt("FALE QUANTOS GOLS O SEGUNDO TIME FEZ: ")
 
-var dg = gum - gdois;
+var dg = Math.abs(gum - gdois);
 
-switch (dg){
+switch (dg) {
     case 0:
         console.log("EMPATE")
-            break;
+        break;
     case 1:
     case 2:
     case 3:
         console.log("PARTIDA NORMAL")
-            break;
+        break;
     default:
         console.log("GOLEADA")
-            break;
+        break;
 }

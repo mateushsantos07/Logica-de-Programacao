@@ -14,14 +14,14 @@ switch (mes) {
     case 10:
     case 11:
         console.log("ESSE MES TEM 31 DIAS");
-            break;
+        break;
     case 4:
     case 6:
     case 9:
     case 12:
         console.log("ESSE MES TEM 30 DIAS");
-            break;
+        break;
     default:
         console.log("ESSE MES TEM 29 DIAS")
-            break;
+        break;
 }
