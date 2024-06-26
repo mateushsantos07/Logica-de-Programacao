@@ -7,7 +7,10 @@ for (var i = 0; i <= n1; i++) {
 
 }
 
-for (var i = 0; i <= n1; n1--){
+for (var i = 0; i <= n1; n1--) {
     console.log(n1)
-    
+
 }
+/*
+
+*/

@@ -1,17 +1,23 @@
 import leia from "readline-sync"
 
-var aux1 = 0 
-var aux2 = 0
+var maior
+var menor
 
-for(var i = 0; i<= 4; i++){
-    var num = leia.questionInt("Digite um número: ")
-}
+for (var i = 0; i < 15; i++) {
+    var valor = leia.questionFloat(" Digite um numero " + (i + 1) + ": ")
+    
+    if(i === 0){
+        menor = valor 
+        maior = valor 
+    }
 
-if(num >> num){
-    aux1 = num
-    console.log(aux)
-if (num << num){
-    aux2 = num
-    console.log(aux2)
+    if (valor < menor) {
+        menor = valor
+    }
+
+    if (valor > maior) {
+        maior = valor
+    }
 }
-}
+    console.log("MAIOR NUMERO: " + maior)
+    console.log("MENOR NUMERO: " + menor) 
