@@ -1,18 +1,21 @@
 
 
-var menores = [];
-var maiores = [];
+var minima = [];
+var maxima = [];
 
-for (var i = 0; i < 2; i++) {
-    var num1 = parseInt(Math.random()) * (35 - 12) + 12
-    var num2 = parseInt(Math.random()) * (35 - 12) + 12
-    if (num1 < num2) {
-        maiores = num1
-        menores = num2
-    } else if (num1 > num2) {
-        maiores - num2
-        menores = num1
+for (var i = 0; i < 30; i++) {
+    var temp1 = parseInt(Math.random() * 23) + 12
+    var temp2 = parseInt(Math.random() * 23) + 12
+
+    if (temp1 < temp2) {
+        minima.push(temp1);
+        maxima.push(temp2);
+    } else {
+        maxima.push(temp1);
+        minima.push(temp2);
     }
 }
-console.log(menores)
-console.log(maiores)
+
+for (var i = 0; i < 30; i++) {
+    console.log("DIA: " + (i + 1) + " MINIMA: " + minima[i] + " MAXIMA: " + maxima[i])
+}
