@@ -1,4 +1,4 @@
-import { preencherVetor } from "./exemplos.js";
+import {preencherVetor } from "./exemplos.js";
 
 var vetor = preencherVetor(10, 0, 50);
 

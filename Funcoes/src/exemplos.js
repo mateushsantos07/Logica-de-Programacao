@@ -1,6 +1,6 @@
 import leia from "readline-sync"
 
-import { preencherVetor } from '.exemplos.js';  //PARA IMPORTAR A FUNÇÃO EM OUTRO ARQUIVO
+//import { preencherVetor } from '.exemplos.js';  //PARA IMPORTAR A FUNÇÃO EM OUTRO ARQUIVO
 
 
 function mostrar() {
@@ -26,7 +26,7 @@ function multi(num1, num2) {
     return result;
 }
 
-function preencherVetor(tamanhoVetor, min, max) {
+function preencherVeto1r(tamanhoVetor, min, max) {
     var vetor = [];
     for (var i = 0; i < tamanhoVetor; i++) {
         vetor[i] = parseInt(Math.random() * (max - min)) + min  //PARA DEFINIR OS VALORES MAXIMOS E MINIMOS
