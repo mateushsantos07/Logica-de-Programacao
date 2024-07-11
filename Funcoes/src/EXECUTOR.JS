@@ -1,14 +1,18 @@
 import leia from 'readline-sync'
-import { exercicio1 } from '.tercoFinal.js';
-import { exercicio2 } from '.solicitarPares.js'
+import { tercoFinal } from './tercoFinal.js'
+import { valorDuplicado } from './valorDuplicado.js'
+import { solicitarPares } from './solicitarPares.js'
 
-var opcao = leia.keyInSelect(["EXERCICIO 01", "EXERCICIO 02"]) + 1
+var opcao = leia.keyInSelect(["EXERCICIO 01", "EXERCICIO 02", "EXERCICIO 3"]) + 1
 
-switch(opcao){
+switch (opcao) {
     case 1:
-        exercicio1();
+        tercoFinal();
         break;
     case 2:
-        exercicio2();
+        valorDuplicado();
+        break;
+    case 3:
+        solicitarPares();
         break;
 }

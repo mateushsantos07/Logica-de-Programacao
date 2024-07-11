@@ -1,4 +1,3 @@
-
 export function preencherVetor(tamanhoVetor, min, max) {
     var vetor = [];
     for (var i = 0; i < tamanhoVetor; i++) {

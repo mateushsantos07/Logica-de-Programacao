@@ -1,9 +1,6 @@
 import leia from "readline-sync"
 
-//import { preencherVetor } from '.exemplos.js';  //PARA IMPORTAR A FUNÇÃO EM OUTRO ARQUIVO
-
-
-function mostrar() {
+/*function mostrar() {
     var nome = leia.question("Digite um nome: ")
     console.log("Ola, " + nome)
 }
@@ -26,14 +23,6 @@ function multi(num1, num2) {
     return result;
 }
 
-function preencherVeto1r(tamanhoVetor, min, max) {
-    var vetor = [];
-    for (var i = 0; i < tamanhoVetor; i++) {
-        vetor[i] = parseInt(Math.random() * (max - min)) + min  //PARA DEFINIR OS VALORES MAXIMOS E MINIMOS
-    }
-    return vetor;
-}
-
 var vetor = preencherVetor(10, 50, 200)
 console.log(vetor)
 
@@ -42,7 +31,7 @@ somar();
 subtrair(10, 5)
 var Resultado = multi(5, 5)
 console.log(Resultado)
-mostrar();
+mostrar();*/
 
 export function preencherVetor(tamanhoVetor, min, max) {
     var vetor = [];
